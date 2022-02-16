@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.bottom {
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .left{
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right{
+  margin-right: 10px;
+} */
+
+.top span {
+  margin-top: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.innerrightbox {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 6px;
+}
+
+.innerbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cross-modal {
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+.cross-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4px;
+}
+
+.add {
+  /* background-image: linear-gradient(to right top, #4313c7, #6b1ec9, #882cca, #a03bcc, #b64bcf, #ca4ac1, #d94db3, #e453a6, #e65286, #e0586b, #d46154, #c36a44); */
+  color: white;
+  /* background-color: black;
+   */
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to right top,
+    #26282a,
+    #34393a,
+    #444a4a,
+    #575c59,
+    #6c6e68
+  );
+  margin-top: 1rem;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+
+
+.inputs-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-field input {
+  margin-top: 8px;
+  height: 1.2rem;
+}
+
+.option {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+
+.inner-option{
+  margin-left: 0.8rem;
+}
+
+.add-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.add-div input {
+  width: 350px;
+  margin-right: 5px;
+}
+
+.add-btn {
+  width: 4rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  margin-top: 0.8rem;
+  background-color: #26282a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.red{
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green{
+  color: green;
+}
+
+.btn-class{
+  display: flex;
+  align-items: center;
+  
+}
+
+.btn-class button{
+   padding: 0.4rem;
+   margin-right: 1rem;
+   border-radius: 0.6rem;
+   background-color: #444a4a;
+   color: white;
 }
