@@ -1,3 +1,14 @@
+# Project Overview 
+This project is created using React, Styled Components and CSS.
+
+![image](https://user-images.githubusercontent.com/72217785/154351235-3397c957-26ae-485d-a861-5aacd6ceb670.png)
+
+![image](https://user-images.githubusercontent.com/72217785/154351355-9cab2cbf-4730-471d-8a9f-bf6b9b5b03a5.png)
+
+![image](https://user-images.githubusercontent.com/72217785/154351434-c06a0764-5e64-4b10-8dd3-aeb4e5a3255d.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
